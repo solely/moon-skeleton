@@ -1,0 +1,35 @@
+{
+  "name": "moon/skeleton",
+  "type": "library",
+  "keywords": [
+    "php",
+    "moon",
+    "component",
+    "skeleton"
+  ],
+  "description": "moon skeleton",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "solely",
+      "homepage": "https://github.com/solely"
+    }
+  ],
+  "require": {
+    "ext-psr": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "App\\Modules\\": "app/modules/"
+    }
+  },
+  "scripts": {
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
